@@ -7,6 +7,9 @@ namespace System
 {
     public static class IProjectDescriptionGeneratorExtensions
     {
+        /// <summary>
+        /// The default description is just the library description.
+        /// </summary>
         public static string GetProjectDescription(this IProjectDescriptionGenerator _,
             string libraryDescription)
         {
